@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MatchMentor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      .logo {
+        margin-right: 500px; /* Ajustez la valeur en pixels selon votre préférence */
+      }
+      .logo-footer {
+        margin-right: 0px; /* Ajustez la valeur en pixels selon votre préférence */
+      }
+      .btn-connecter {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+      .btn-footer {
+        margin-left: 110px;
+        margin-bottom: 20px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+      .btn-confirmer {
+        background-color: rgb(173, 181, 189);
+        color: rgb(0, 0, 0);
+        margin-left: 110px;
+      }
+      .btn-cta {
+        background-color: rgb(173, 181, 189);
+        color: rgb(0, 0, 0);
+        margin: 100px;
+      }
+      .btn-mentor {
+        text-align: center; 
+        margin-top: 100px; 
+      }
+      .elipse {
+        margin-top: -150px; 
+        text-align: center;
+      }
+      .elipse-image {
+        margin: 100px;
+        margin-left: 120px;
+      }
+      .bg-custom {
+        background-color: rgb(173, 181, 189);
+      }
+      .nav-link {
+        color : rgb(0, 0, 0);
+        font-weight:500;
+      }
+      h1 {
+        margin-top: 50px; 
+        margin-bottom: 10px; 
+        margin-left: 40px; 
+        margin-right: 10px; 
+      }
+      h2 {
+        margin-top: 50px; 
+        margin-bottom: 10px; 
+        margin-left: 100px; 
+        margin-right: 10px; 
+      }
+      .Inscription-form {
+        text-align:center;
+        margin-top: 50px; 
+        margin-bottom: 10px; 
+        margin-left: 100px; 
+        margin-right: 10px; 
+      }
+      .check-square {
+        margin-top: -80px;
+        margin-left: 40px;
+      }
+      .sign {
+        margin-top: -80px;
+        margin-left: 650px;
+      }
+      .texte1 {
+        margin-top: -20px;
+        margin-left: 40px;
+      }
+      .image-grise {
+        margin-top: -200px;
+        margin-left: 800px;
+      }
+
+
+      .grey-rectangle {
+        margin-top : 100px;
+        background-color: rgb(173, 181, 189); /* Couleur de fond gris */
+        width: 100%; /* Prend toute la largeur de la page */
+        padding: 20px; /* Espace à l'intérieur du rectangle */
+        box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+        text-align: left; /* Centre le texte à l'intérieur */
+        color: white;
+      }
+      .footer {
+        margin-top : 200px;
+        background-color: rgb(173, 181, 189); /* Couleur de fond gris */
+        width: 100%; /* Prend toute la largeur de la page */
+        padding: 20px; /* Espace à l'intérieur du rectangle */
+        box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+        text-align: left; /* Centre le texte à l'intérieur */
+        color: white;
+      }
+
+      .gps-footer {
+        margin-left: -90px;
+      }
+
+      .icon-rs {
+        margin-left: 20px;
+        margin-bottom: -50px;
+      }
+
+      .mail-footer {
+        margin-bottom: -80px;
+        margin-left: -28px;
+      }
+
+      .phone-footer {
+        margin-bottom: -160px;
+        margin-left: -28px;
+      }
+
+      .objet-footer {
+        margin-left: -70px;
+      }
+
+      .form-control {
+        margin-left: 110px;
+      }
+
+      .form-label {
+        margin-left: 110px;
+      }
+
+      .text-footer {
+        margin-left: -390px;
+      }
+      .text-footer2 {
+        margin-left: -420px;
+      }
+      #myCarousel {
+    background-color: #ccc; /* Ajout d'un fond gris */
+    text-align: center; /* Centrer le contenu */
+      }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%); /* Inverser la couleur des flèches pour les rendre noires */
+    }
+
+    .carousel-item {
+      margin-left: 150px;
+    }
+
+    #my2ndCarousel {
+      background-color: #ccc; /* Ajout d'un fond gris */
+      text-align: center; /* Centrer le contenu */
+    }
+
+
+
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-custom">
+  <div class="container-fluid">
+    <img src="assets\logo.png"  width="40" height="40" class="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Qui sommes nous ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Offres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-connecter" data-bs-toggle="button">Se connecter</button>
+    </div>
+  </div>
+</nav>
+
+  <h1>POURQUOI UN MENTOR ?</h1>
+  <h2>Notre expertise !</h2>
+  <img src="assets\check-square-fill.png" width="50" height="50" class="img-fluid check-square" alt="...">
+  </body>
+  <p class="texte1">MatchMentor est dans le domaine du mentorat depuis <br>plus de 30 années ce qui fait notre experience et<br>qualitée de travail.</p>
+  <img src="assets\Image.png" width="531" height="285" class="img-fluid image-grise" alt="Image-grise">
+
+  <div class="grey-rectangle">
+    <p>MatchMentor vous offre la possibilitée d’obtenir un mentor en fonction de vos besoins mais aussi d’integrer 
+      notre équipe en tant que mentor.<br>
+      N’hesitez pas à faire une simulation !</p>
+  </div>
+
+  <div class="btn-mentor">
+    <button type="button" class="btn btn-cta" data-bs-toggle="button">DEVENIR MENTOR</button>
+    <button type="button" class="btn btn-cta" data-bs-toggle="button">TROUVER UN MENTOR</button>
+    <button type="button" class="btn btn-cta" data-bs-toggle="button">SIMULATION</button>
+  </div>
+
+  <div class="elipse">
+    <img src="assets\elipse.png" width="138" height="142" class="img-fluid elipse-image" alt="elipse">
+    <img src="assets\elipse.png" width="138" height="142" class="img-fluid elipse-image" alt="elipse">
+    <img src="assets\elipse.png" width="138" height="142" class="img-fluid elipse-image" alt="elipse">
+  </div>
+  <h2>Notre équipe !</h2>
+  <img src="assets\people.png" width="50" height="50" class="img-fluid check-square" alt="...">
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carrousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <img src="assets/vis1.png" class="d-block w-50" alt="Image 1">
+                </div>
+                <div class="col">
+                    <img src="assets/vis2.png" class="d-block w-50" alt="Image 2">
+                </div>
+                <div class="col">
+                    <img src="assets/vis3.png" class="d-block w-50" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <img src="assets/vis4.png" class="d-block w-50" alt="Image 4">
+                </div>
+                <div class="col">
+                    <img src="assets/vis5.png" class="d-block w-50" alt="Image 5">
+                </div>
+                <div class="col">
+                    <img src="assets/vis6.png" class="d-block w-50" alt="Image 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flèches de navigation -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+  </div>
+  
+  <div class="grey-rectangle">
+    <p>Nos avis clients refletent la qualité de travail que nous offrons chez MatchMentor !</p>
+  </div>
+
+  <h2>Les avis clients !</h2>
+  <img src="assets\avis.png" width="50" height="50" class="img-fluid check-square" alt="...">
+
+  <div id="my2ndCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carrousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <img src="assets/chat1.png" class="d-block w-50" alt="Image 1">
+                </div>
+                <div class="col">
+                    <img src="assets/chat2.png" class="d-block w-50" alt="Image 2">
+                </div>
+                <div class="col">
+                    <img src="assets/chat3.png" class="d-block w-50" alt="Image 3">
+                </div>
+                <div class="col">
+                  <img src="assets/chat4.png" class="d-block w-50" alt="Image 3">
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <img src="assets/chat4.png" class="d-block w-50" alt="Image 4">
+                </div>
+                <div class="col">
+                    <img src="assets/chat3.png" class="d-block w-50" alt="Image 5">
+                </div>
+                <div class="col">
+                    <img src="assets/chat2.png" class="d-block w-50" alt="Image 6">
+                </div>
+                <div class="col">
+                  <img src="assets/chat1.png" class="d-block w-50" alt="Image 3">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flèches de navigation -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#my2ndCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#my2ndCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+</div>
+<div class="grey-rectangle">
+  <p>Pensez à vous inscrire à notre newsletter afin de recevoir toutes nos dernieres informations et offres !</p>
+</div>
+
+<h2 class="Inscription-form">Je m'inscris !</h2>
+  <img src="assets\sign.png" width="50" height="50" class="img-fluid sign" alt="...">
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="prenom" class="form-label"></label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+                </div>
+                <div class="mb-3">
+                    <label for="nom" class="form-label"></label>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+                </div>
+                <div class="mb-3">
+                    <label for="Mail" class="form-label"></label>
+                    <input type="Mail" class="form-control" id="Mail" name="Mail" placeholder="Mail">
+                </div>
+                <div class="mb-3">
+                    <label for="metier" class="form-label"></label>
+                    <input type="text" class="form-control" id="metier" name="metier" placeholder="Métier">
+                </div>
+                <button type="submit" class="btn btn-confirmer">Confirmer</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+  <img src="assets\logo.png" width="40" height="40" class="img-fluid logo-footer" alt="logo">
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <img src="assets\gps.png" alt="adress" class="gps-footer">
+          <img src="assets\mail.png" alt="mail" class="mail-footer">
+          <img src="assets\phone.png" alt="numero" class="phone-footer">
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <p class="text-footer">10 Rue de Paris</p>
+          <p class="text-footer">matchmentor@gmail.com</p>
+          <p class="text-footer">01 42 56 33 19</p>
+          <p class="text-footer2">Mentions légales - CGT - CGU - Politique des cookies</p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <p class="objet-footer">NOS PAGES</p>
+        <p class="objet-footer">Qui sommes nous ?</p>
+        <p class="objet-footer">Nos offres</p>
+        <p class="objet-footer">Nous contactez</p>
+        <p class="objet-footer">Blog</p>
+
+        <img src="assets\fb.png" alt="rs" class="icon-rs">
+        <img src="assets\instagram.png" alt="rs" class="icon-rs">
+        <img src="assets\ln.png" alt="rs" class="icon-rs">
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <button type="button" class="btn btn-footer" data-bs-toggle="button">DEVENIR MENTOR</button>
+        <button type="button" class="btn btn-footer" data-bs-toggle="button">TROUVER UN MENTOR</button>
+        <button type="button" class="btn btn-footer" data-bs-toggle="button">SIMULATION</button>
+        <div class="mb-3">
+          <label for="nom" class="form-label">Recevoir nos offres !</label>
+          <input type="text" class="form-control" id="nom" name="offres" placeholder="Adresse mail..">
+      </div>
+      </div>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>
